@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    background: #eec;
+}
+.container {
+    width: 40%;
+    margin: auto;
+}
+
+.form {
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+}
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.edit {
+    cursor: pointer;
+    background: orange;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.delete {
+    cursor: pointer;
+    background: #e63173;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+button {
+    margin: 10px 0;
+}
